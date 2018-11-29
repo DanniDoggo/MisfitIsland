@@ -1,12 +1,31 @@
 /*Code for every page */
 
+/*
+color pallete
+lightest teal: #DDFFF7
+light teal: #93E1D8
+light coral: #FFA69
+dark pink: #AA4465
+purple: #462255
+*/
+
+body{
+  background-color: white;
+  color: black;
+}
+
+h1{
+ color: #462255
+}
+
 /*NAVIGATION BAR*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: red;
+    background-color: #462255;
+    color: white;
 }
 
 li {
@@ -22,11 +41,13 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #FFA69E;
+    color: #AA4465;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #FFA69E;
+    color: #AA4465;
 }
 
 /* NOT SURE WHAT THIS IS YET*/
@@ -45,6 +66,7 @@ li a:hover {
   text-align: center;
   background: #ddd;
   margin-top: 20px;
+  background-color: #462255;
 }
 
 .foot-grid-container {
@@ -96,13 +118,13 @@ li a:hover {
      display: inline-block;
      max-width: 300px;
      vertical-align: top;
-     background-color: grey;
+     background-color: #93E1D8;
 }
 .right-div
 {
      display: inline-block;
      max-width: 300px;
-     background-color: grey;
+     background-color: #93E1D8;
 }
 
 /*SHOP.PHP*/
@@ -120,8 +142,8 @@ li a:hover {
 }
 
 .shop-grid-item-filter {
-    background-color: gray;
-    border: 1px solid blue;
+    background-color: #93E1D8;
+    /*border: 1px solid blue;*/
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -130,8 +152,8 @@ li a:hover {
 }
 
 .shop-grid-item-main {
-    background-color: gray;
-    border: 1px solid blue;
+    background-color: #93E1D8;
+    /*border: 1px solid blue;*/
     padding: 20px;
     font-size: 30px;
     text-align: center;
@@ -208,7 +230,7 @@ li a:hover {
   margin: 0 auto;
   max-width: 700px;
   height: 100px;
-  background-color: #ccc;
+  background-color: #93E1D8;
   border-radius: 3px;
 }
 
